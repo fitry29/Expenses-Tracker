@@ -19,7 +19,7 @@ var arr = document.getElementById("arr");
 btn.addEventListener("click", ()=>{
     // alert("test");
     formValidation();
-    arr.innerHTML = JSON.stringify(listExpenses);
+   // arr.innerHTML = JSON.stringify(listExpenses);
    // arr.innerHTML = listExpenses[0].item;
    // alert(listExpenses[0].item)
     displayExpenses();
