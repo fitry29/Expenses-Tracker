@@ -1,0 +1,91 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#head{
+    background-color: aliceblue;
+    border: 1px solid black;
+    display: grid;
+    margin: 50px 10% 0px 10% ;
+    padding: 20px 50px;
+    text-align: center;
+}
+#arr-box{
+    background-color: aliceblue;
+    border: 1px solid black;
+    display: grid;
+    margin: 50px 10% 50px 10% ;
+    padding: 20px 50px;
+    text-align: center;
+}
+#title{
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+#input-wrap{
+    padding-bottom: 10px;
+}
+#input-wrap-2{
+
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#input-box{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 8px;
+}
+#input-box input{
+    padding: 8px;
+}
+#btn-submit{
+    margin: 15px 35% ;
+    padding: 8px;
+    border: none;
+    color: white;
+    background-color: purple;
+    border-radius: 2rem;
+}
+#btn-submit:hover{
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.359);
+}
+.err-msg{
+    color: red;
+    display: none;
+}
+
+#total-spend{
+    color:rgb(59, 3, 59);
+
+}
+
+
+#table-box{
+    margin: 50px 10%;
+}
+
+#table-exp {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table-exp td, #table-exp th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table-exp tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table-exp tr:hover {background-color: #ddd;}
+  
+  #table-exp th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: purple;
+    color: white;
+  }
