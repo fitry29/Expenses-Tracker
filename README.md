@@ -1,1 +1,2 @@
-# Expenses-Tracker using JavaScript
+# Expenses-Tracker 
+Expenses Tracker System using simple Javascript
